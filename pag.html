@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contenedor">
+        <article class="top-nav">
+            <h1>On Click</h1>
+            <label for="Buscador">Buscador:</label>
+            <input id="Buscador" name="Buscar" placeholder="Buscar">
+            <button onclick="cambiar(this)">Pedir</button>
+
+        </article>
+
+        <article class="side-nav">
+          <img src="img/OIP.jpg" width="200px" height="150px"><br>
+        <article>
+          <button class="likeButton" onclick="alert('Recibiste un like!')" data-id="1" >Me gusta</button>
+          <span id="likeCount1" class="likeCount">0</span>
+          <p class="text1">El algodón es un textil que se obtiene de un arbusto <br> del género Gossypium de la familia de las malváceas <br> de ecosistemas tropicales. 
+            Con este material,<br> se suele fabricar diferentes prendas de vestir como la ropa interior femenina.</p>
+    
+          
+
+        </article>
+        
+        
+
+        <article class="main">
+            <img src="./img/algodon.png" width="200px" height="150px">
+            <span></span>
+            <article>
+                <button class="likeButton" onclick="alert('Recibiste un like!')" data-id="2">Me gusta</button>
+                <span id="likeCount2" class="likeCount">0</span>
+                <p>El algodón es un textil que se obtiene de un arbusto <br> del género Gossypium de la familia de las <br> malváceas de ecosistemas tropicales.
+                     Con este material, se suele fabricar diferentes <br> prendas de vestir como la ropa interior femenina.</p>
+            </article>
+            
+
+        </article>
+        <article class="sub-content" width="200px" height="150px">
+            <img src="./img/th.jpg" > 
+            <article class="add">
+                <button onclick="eliminar (this)" id="boton3"><p id="contado3">Add Definition</p></button>
+
+            </article>
+    
+        </article>
+       
+    </section>
+   
+
+    
+
+    <script src="./scrpt.js"></script>
+    
+</body>
+</html>
